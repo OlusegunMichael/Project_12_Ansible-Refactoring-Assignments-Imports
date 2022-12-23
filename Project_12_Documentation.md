@@ -132,3 +132,30 @@ ____
 ### **Step 4 – Reference ‘Webserver’ role**
 
 ____
+
+* Within the static-assignments folder, I created a new assignment for uat-webservers named uat-webservers.yml. This is where the role will be referenced.
+
+![uatweseryml](./Project_12_Images/uatwebservesyml.PNG)
+
+* I edited the site.yml file to refer your uat-webservers.yml role 
+
+![siteyml](./Project_12_Images/siteyml%20updated.PNG)
+
+______
+### **Step 5 – Commit & Test**
+__________
+* I create a Pull Request and merge them to master branch
+
+![reafctory](./Project_12_Images/refactor%20updated.PNG)
+![ansible](./Project_12_Images/console%20ansible.PNG)
+![artifats](./Project_12_Images/console%20artifats.PNG)
+
+* Run the playbook against your uat inventory
+
+![play](./Project_12_Images/playbook.PNG)
+
+* Accessing the UAT Web servers configured via the browser.
+
+![browser](./Project_12_Images/uat_on%20Webbrowser.PNG)
+
+### Project End
